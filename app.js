@@ -54,8 +54,11 @@ btn.addEventListener("click", () => {
     return (errorContainer.innerText = "WRONG BIRTHDAY!!");
   }
   errorContainer.innerText = "";
+  window.location.href = "video.html";
+  /*
   document.body.innerHTML += modalHTML;
   const modal = document.getElementById("video-modal");
   modal.style.display = "block";
   modal.innerHTML = videoContainerHTML;
+  */
 });
